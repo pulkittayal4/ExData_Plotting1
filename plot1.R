@@ -20,4 +20,4 @@ t <- cbind(dateTime, t)
 t$dateTime <- as.POSIXct(dateTime)
 
 ##Creates a plot1
-hist(globalActivePower, col="red", main="Global Active Power", xlab="Global Active Power (kilowatts)")
+  hist(t$Global_active_power, main="Global Active Power", xlab = "Global Active Power (kilowatts)", col="red")
